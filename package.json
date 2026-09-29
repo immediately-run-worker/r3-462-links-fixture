@@ -9,7 +9,7 @@
     "render": "app"
   },
   "dependencies": {
-    "@immediately-run/grove": "0.1.7",
+    "@immediately-run/grove": "github:immediately-run/grove#394330d1cbc5872d8b355e89704fe444b6eb6380",
     "@immediately-run/sdk": "^0.72.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
