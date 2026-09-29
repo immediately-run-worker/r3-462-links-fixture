@@ -2,5 +2,16 @@
   "name": "r3-462-links-fixture",
   "private": true,
   "version": "0.0.0",
-  "type": "module"
+  "type": "module",
+  "main": "src/main.tsx",
+  "immediately.run": {
+    "content": ["content"],
+    "render": "app"
+  },
+  "dependencies": {
+    "@immediately-run/grove": "0.1.8",
+    "@immediately-run/sdk": "^0.72.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
 }
